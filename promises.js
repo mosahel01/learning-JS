@@ -4,8 +4,6 @@ function getRandomBool() {
 }
 
 
-
-
 // old syntax   
 const promise = new Promise((reject, resolve) => {
     setTimeout(() => {
@@ -25,10 +23,6 @@ promise
     .catch((message) => {
         console.log(`The .catch promise finally is ${message}`);
     })
-
-
-
-
 
 
 
