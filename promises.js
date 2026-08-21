@@ -39,3 +39,6 @@ try {
 }
 
 
+// or this but we used try-catch
+const message = await promise;
+console.log(`Resolved with ${message}`);
